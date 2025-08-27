@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda / venv environments
+.venv/
+.env/
+.conda/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+wandb/
+lightning_logs/
+experiments/**/logs/
+
+# Results and outputs
+data/trained_models/
+data/results/
+results/
+!data/results/.gitkeep
+!results/**/.gitkeep
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE settings
+.vscode/
+.idea/
+
+# Coverage / test
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
