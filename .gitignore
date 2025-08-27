@@ -49,3 +49,6 @@ htmlcov/
 .tox/
 .pytest_cache/
 .mypy_cache/
+
+
+a.ipynb
